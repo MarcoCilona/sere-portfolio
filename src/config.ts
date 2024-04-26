@@ -26,37 +26,22 @@ export const siteConfig: SiteConfig = {
 
 export const navBarConfig: NavBarConfig = {
   links: [
-    LinkPreset.Home,
-    LinkPreset.Archive,
-    LinkPreset.About,
-    {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',
-      external: true,
-    },
+    LinkPreset.Bio,
+    LinkPreset.Projects,
+    LinkPreset.Contact,
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/profilo-serena.png',
+  name: 'Serena Alampi',
+  bio: 'Head of Design and Business Analyst at Digitiamo',
   links: [
     {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',
-      url: 'https://twitter.com',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
-    },
-    {
-      name: 'GitHub',
-      icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
-    },
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/serena-alampi/',
+      icon: 'fa6-brands:linkedin'
+    }
   ],
 }
 
